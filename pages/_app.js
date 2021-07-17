@@ -26,10 +26,8 @@ const GlobalStyle = createGlobalStyle`
     height: auto;
     display: block
   }
-  
   ${AlurakutStyles}
 `
-
 
 const theme = {
   colors: {
@@ -47,3 +45,4 @@ export default function App({ Component, pageProps }) {
     </>
   )
 }
+
